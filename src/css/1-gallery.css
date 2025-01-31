@@ -1,0 +1,15 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.gallery li {
+  width: calc((100% - 40px) / 3);
+  list-style: none;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
