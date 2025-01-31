@@ -90,6 +90,7 @@ const lightbox = new SimpleLightbox('.gallery-link', {
     sourceAttr: "href",
     captionsData: "alt",
     captionPosition: 'bottom',
+    captionDelay: 250,
 });
 
 
